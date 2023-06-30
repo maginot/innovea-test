@@ -2,9 +2,9 @@
     <div>
         <h1> {{ title }}</h1>
         <p><b>Author:</b> {{ author }}</p>
-        <p>Description: <br> {{ description }}</p>
-        <p>Source: {{ source }} </p>
-        <p>Link: <a :href="link">{{ link }}</a></p>
+        <p><b>Description:</b> <br> {{ description }}</p>
+        <p><b>Source:</b> {{ source }} </p>
+        <p><b>Link:</b> <a :href="link">{{ link }}</a></p>
     </div>
 </template>
 
@@ -22,10 +22,16 @@
 
 <style scoped>
     p {
-        font: 14px normal arial;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p a {
+        color: #cfcfcf;
     }
 
     h1 {
-        font: 20px normal arial;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 </style>

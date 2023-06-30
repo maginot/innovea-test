@@ -10,7 +10,7 @@
   export default {
     data() {
       return {
-        title: 'Innovea Teste'
+        title: 'Innovea Test'
       }
     },
     components: { NewsList }
@@ -18,7 +18,12 @@
 </script>
 
 <style scoped>
+
+  body {
+    background:#c4c4c8;
+  }
+
   h1 {
-    font: normal 2em arial;
+    font: bold 32px arial;
   }
 </style>

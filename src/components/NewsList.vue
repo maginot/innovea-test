@@ -1,5 +1,5 @@
 <template>
-    <p>News List</p>
+    <h2>Articles List</h2>
     <template v-for="item in articles" :key="item.author">
         <news-list-item :author="item.author" :title="item.title" :description="item.description" :link="item.url" :source="item.source.name" class="news-list-item" />
     </template>
@@ -39,12 +39,17 @@
 
 <style scoped>
     .news-list-item {
-        background-color: #ccc;
+        background-color: #45566d;
+        color: white;
         padding: 10px;
         display: block;
-        width: 100%;
-        border-bottom: 2px solid #777;
+        width: 95vw;
+        border-bottom: 8px solid #333;
         margin-bottom: 10px;
     }
 
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
 </style>
