@@ -43,13 +43,16 @@
         color: white;
         padding: 10px;
         display: block;
-        width: 95vw;
-        border-bottom: 8px solid #333;
-        margin-bottom: 10px;
+        border-bottom: 8px solid #8f6aea;
+        margin-bottom: 15px;
+        border-radius: 8px 2px 2px 20px;
+        overflow-x: hidden;
     }
 
+    
     h2 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
+        color: white;
     }
 </style>

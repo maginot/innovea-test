@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ title }}</h1>
+  <div align="center" class="border-bottom">
+    <img src="logo.png" height="60" :alt="title"/>
+  </div>
   <news-list />
 </template>
 
@@ -17,13 +19,18 @@
   }
 </script>
 
-<style scoped>
-
+<style>
   body {
-    background:#c4c4c8;
+    background:#090d30 !important;
   }
 
   h1 {
     font: bold 32px arial;
+    color: white;
   }
+
+  .border-bottom {
+    border-bottom: 2px solid white;
+  }
+
 </style>
